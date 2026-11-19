@@ -5,16 +5,37 @@ version: 'v0.0.3'
 workflows:
     '.github/workflows/lock-ok.yml':
         - 'o3c-research-org/orphan-lab-2@main'
-    '.github/workflows/lock-pr.yml':
-        - 'o3c-research-org/orphan-lab-2@refs/pull/1/head'
+    '.github/workflows/lock-x.yml':
+        - 'o3c-research-org/orphan-lab-2@bx'
+    '.github/workflows/lock-y.yml':
+        - 'o3c-research-org/orphan-lab-2@by'
+    '.github/workflows/lock-other.yml':
+        - 'o3c-research-org/orphan-lab-2@m2'
+    '.github/workflows/lock-rel.yml':
+        - 'o3c-research-org/orphan-lab-2@rel'
 dependencies:
     'o3c-research-org/orphan-lab-2@main':
         ref: 'main'
         commit: 'sha1-4259169024fd414eca24e4d2dae985bcc6cde492'
         owner_id: 340482361
         repo_id: 1464639568
-    'o3c-research-org/orphan-lab-2@refs/pull/1/head':
-        ref: 'refs/pull/1/head'
+    'o3c-research-org/orphan-lab-2@bx':
+        ref: 'bx'
+        commit: 'sha1-13fa6918ff8fa3bdad291c4e8f581526c4444c05'
+        owner_id: 340482361
+        repo_id: 1464639568
+    'o3c-research-org/orphan-lab-2@by':
+        ref: 'by'
         commit: 'sha1-89cb692407209222039d13157a053c9029b83dcd'
+        owner_id: 340482361
+        repo_id: 1464639568
+    'o3c-research-org/orphan-lab-2@m2':
+        ref: 'm2'
+        commit: 'sha1-16137794c45048ef244796d84d4a37b938f80e03'
+        owner_id: 340482361
+        repo_id: 1464639568
+    'o3c-research-org/orphan-lab-2@rel':
+        ref: 'rel'
+        commit: 'sha1-035d37230d1c688edd57a18554357141f72cfaba'
         owner_id: 340482361
         repo_id: 1464639568
